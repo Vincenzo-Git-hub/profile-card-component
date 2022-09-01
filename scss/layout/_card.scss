@@ -1,0 +1,29 @@
+@use "../util/" as *;
+
+.card {
+  max-width: 21.875rem;
+  background-color: var(--White);
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+
+  .card__img {
+    position: relative;
+    top: -3rem;
+    border: 5px solid var(--White);
+    border-radius: 50%;
+  }
+
+  .card__location {
+    margin-bottom: 1.25em;
+  }
+
+  .card__detail {
+    padding: 1.5rem 3rem;
+    border-top: 1px solid var(--Dark-gray);
+  }
+}
+
+.top {
+  margin-top: -1.5rem;
+}

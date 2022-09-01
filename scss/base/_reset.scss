@@ -1,0 +1,22 @@
+@use "../util/" as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  width: min(85%, 90rem);
+  margin-inline: auto;
+  min-height: 100vh;
+  background-color: var(--Dark-cyan);
+}
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+}

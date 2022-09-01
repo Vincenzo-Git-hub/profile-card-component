@@ -1,0 +1,23 @@
+@use "../util/" as *;
+
+body {
+  text-align: center;
+  line-height: 1.6;
+  font-family: var(--ff);
+}
+
+.bold {
+  font-size: var(--fs);
+  font-weight: 700;
+  color: var(--Very-dark-desaturated-blue);
+}
+
+.light {
+  font-weight: 400;
+  color: var(--Dark-grayish-blue);
+}
+
+.small {
+  font-size: var(--fs-sm);
+  letter-spacing: 1px;
+}
